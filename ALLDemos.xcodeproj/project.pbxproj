@@ -14,6 +14,7 @@
 		63BF3C351B79F0CB007544BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BF3C341B79F0CB007544BA /* Images.xcassets */; };
 		63BF3C381B79F0CB007544BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BF3C361B79F0CB007544BA /* LaunchScreen.xib */; };
 		63BF3C441B79F0CB007544BA /* ALLDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3C431B79F0CB007544BA /* ALLDemosTests.m */; };
+		63BF3C531B7A0C03007544BA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3C521B7A0C03007544BA /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		63BF3C421B79F0CB007544BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BF3C431B79F0CB007544BA /* ALLDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALLDemosTests.m; sourceTree = "<group>"; };
 		63BF3C4E1B79F157007544BA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		63BF3C511B7A0C03007544BA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		63BF3C521B7A0C03007544BA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				63BF3C2F1B79F0CB007544BA /* ViewController.m */,
 				63BF3C311B79F0CB007544BA /* Main.storyboard */,
 				63BF3C4E1B79F157007544BA /* Header.h */,
+				63BF3C511B7A0C03007544BA /* RegisterViewController.h */,
+				63BF3C521B7A0C03007544BA /* RegisterViewController.m */,
 			);
 			name = "视图控制器与导航模式";
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				63BF3C301B79F0CB007544BA /* ViewController.m in Sources */,
 				63BF3C2D1B79F0CB007544BA /* AppDelegate.m in Sources */,
 				63BF3C2A1B79F0CB007544BA /* main.m in Sources */,
+				63BF3C531B7A0C03007544BA /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
