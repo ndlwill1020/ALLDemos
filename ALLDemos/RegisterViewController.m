@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //用代码设置delegate 也可以连线
+    //self.userNameText.delegate = self;
     // Do any additional setup after loading the view.
 }
 
@@ -35,6 +37,34 @@
                                                             object:nil
                                                           userInfo:data];
     }];
+}
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    NSLog(@"textFieldShouldBeginEditing");
+    return YES;
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    NSLog(@"textFieldDidBeginEditing");
+}
+
+- (BOOL)textFieldShouldEndEditing:(UITextField *)textField
+{
+    NSLog(@"textFieldShouldEndEditing");
+    return  YES;
+}
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    NSLog(@"textFieldDidEndEditing");
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    NSLog(@"textFieldShouldReturn");
+    [textField resignFirstResponder];
+    return YES;
 }
 
 @end

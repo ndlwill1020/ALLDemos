@@ -15,6 +15,7 @@
 		63BF3C381B79F0CB007544BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BF3C361B79F0CB007544BA /* LaunchScreen.xib */; };
 		63BF3C441B79F0CB007544BA /* ALLDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3C431B79F0CB007544BA /* ALLDemosTests.m */; };
 		63BF3C531B7A0C03007544BA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3C521B7A0C03007544BA /* RegisterViewController.m */; };
+		63C267BF1B7B2BC0002234C1 /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C267BE1B7B2BC0002234C1 /* ScrollViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		63BF3C4E1B79F157007544BA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		63BF3C511B7A0C03007544BA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		63BF3C521B7A0C03007544BA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		63C267BD1B7B2BC0002234C1 /* ScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewViewController.h; sourceTree = "<group>"; };
+		63C267BE1B7B2BC0002234C1 /* ScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		63BF3C261B79F0CB007544BA /* ALLDemos */ = {
 			isa = PBXGroup;
 			children = (
+				63C267BC1B7B2BA4002234C1 /* Scrollview */,
 				63BF3C4D1B79F12C007544BA /* 视图控制器与导航模式 */,
 				63BF3C2B1B79F0CB007544BA /* AppDelegate.h */,
 				63BF3C2C1B79F0CB007544BA /* AppDelegate.m */,
@@ -132,6 +136,15 @@
 				63BF3C521B7A0C03007544BA /* RegisterViewController.m */,
 			);
 			name = "视图控制器与导航模式";
+			sourceTree = "<group>";
+		};
+		63C267BC1B7B2BA4002234C1 /* Scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				63C267BD1B7B2BC0002234C1 /* ScrollViewViewController.h */,
+				63C267BE1B7B2BC0002234C1 /* ScrollViewViewController.m */,
+			);
+			name = Scrollview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +249,7 @@
 			files = (
 				63BF3C301B79F0CB007544BA /* ViewController.m in Sources */,
 				63BF3C2D1B79F0CB007544BA /* AppDelegate.m in Sources */,
+				63C267BF1B7B2BC0002234C1 /* ScrollViewViewController.m in Sources */,
 				63BF3C2A1B79F0CB007544BA /* main.m in Sources */,
 				63BF3C531B7A0C03007544BA /* RegisterViewController.m in Sources */,
 			);
@@ -432,6 +446,7 @@
 				63BF3C491B79F0CB007544BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63BF3C4A1B79F0CB007544BA /* Build configuration list for PBXNativeTarget "ALLDemosTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +455,7 @@
 				63BF3C4C1B79F0CB007544BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
