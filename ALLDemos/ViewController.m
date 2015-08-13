@@ -43,11 +43,12 @@
  􏰸 UIModalTransitionStylePartialCurl。􏰇现时模􏰆视图􏱊􏰰一个􏱋角􏱃页,关􏰈时模􏰆视图􏱃回来。
  */
 - (IBAction)registerOnClick:(id)sender {
-    //通过故事版
+    //创建viewController
+    //1.通过故事版
     UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController* registerViewController = [mainStoryBoard instantiateViewControllerWithIdentifier:@"registerViewController"];
     
-    //通过xib
+    //2.通过xib
     //UIViewController* registerViewController = [[UIViewController alloc] initWithNibName:@"xib文件" bundle:nil];
     
     registerViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;

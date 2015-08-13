@@ -18,6 +18,12 @@
  
  􏱗 presentViewController:animated:completion。􏲲现模􏰮视图。
  􏱗 dismissViewControllerAnimated:completion。关􏲳模􏰮视图。
+ 
+ 在iPhone􏻷屏幕中,􏴹􏰆栏􏻸用20点,导航栏(或工具栏)􏻸用44点,标签栏􏻸用49点
+ 
+ NSBundle *bundle = [NSBundle mainBundle];
+ NSString *plistPath = [bundle pathForResource:@"provinces_cities"
+ ofType:@"plist"];
  */
 
 #endif
