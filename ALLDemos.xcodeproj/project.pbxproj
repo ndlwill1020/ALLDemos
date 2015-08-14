@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63B77C321B7DA1DA0050E3F6 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B77C311B7DA1DA0050E3F6 /* CustomCell.m */; };
+		63B77C361B7DB4300050E3F6 /* searchDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B77C351B7DB4300050E3F6 /* searchDemoViewController.m */; };
 		63BA8CF31B7C3DBE00DBDEB9 /* landscapeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BA8CF21B7C3DBE00DBDEB9 /* landscapeStoryboard.storyboard */; };
 		63BA8CFF1B7C44CC00DBDEB9 /* landscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BA8CFD1B7C44CC00DBDEB9 /* landscapeViewController.m */; };
 		63BA8D031B7C486600DBDEB9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BA8D021B7C486600DBDEB9 /* MainViewController.m */; };
 		63BA8D201B7C6F1F00DBDEB9 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BA8D1F1B7C6F1F00DBDEB9 /* CollectionViewController.m */; };
 		63BA8D231B7C70C800DBDEB9 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BA8D221B7C70C800DBDEB9 /* CollectionViewCell.m */; };
+		63BA8D281B7C836800DBDEB9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BA8D271B7C836800DBDEB9 /* TableViewController.m */; };
+		63BA8D2D1B7C95A100DBDEB9 /* CustomCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BA8D2C1B7C95A100DBDEB9 /* CustomCellTableViewController.m */; };
 		63BF3C2A1B79F0CB007544BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3C291B79F0CB007544BA /* main.m */; };
 		63BF3C2D1B79F0CB007544BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3C2C1B79F0CB007544BA /* AppDelegate.m */; };
 		63BF3C301B79F0CB007544BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3C2F1B79F0CB007544BA /* ViewController.m */; };
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63B77C301B7DA1DA0050E3F6 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		63B77C311B7DA1DA0050E3F6 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		63B77C341B7DB4300050E3F6 /* searchDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchDemoViewController.h; sourceTree = "<group>"; };
+		63B77C351B7DB4300050E3F6 /* searchDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchDemoViewController.m; sourceTree = "<group>"; };
+		63B77C381B7DC6660050E3F6 /* SectionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionHeader.h; sourceTree = "<group>"; };
 		63BA8CF21B7C3DBE00DBDEB9 /* landscapeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = landscapeStoryboard.storyboard; sourceTree = "<group>"; };
 		63BA8CFC1B7C44CC00DBDEB9 /* landscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = landscapeViewController.h; sourceTree = "<group>"; };
 		63BA8CFD1B7C44CC00DBDEB9 /* landscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = landscapeViewController.m; sourceTree = "<group>"; };
@@ -45,6 +54,11 @@
 		63BA8D1F1B7C6F1F00DBDEB9 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		63BA8D211B7C70C800DBDEB9 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		63BA8D221B7C70C800DBDEB9 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		63BA8D251B7C80FF00DBDEB9 /* TableView_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableView_Header.h; sourceTree = "<group>"; };
+		63BA8D261B7C836800DBDEB9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		63BA8D271B7C836800DBDEB9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		63BA8D2B1B7C95A100DBDEB9 /* CustomCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewController.h; sourceTree = "<group>"; };
+		63BA8D2C1B7C95A100DBDEB9 /* CustomCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewController.m; sourceTree = "<group>"; };
 		63BF3C241B79F0CB007544BA /* ALLDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALLDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BF3C281B79F0CB007544BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BF3C291B79F0CB007544BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +101,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63B77C331B7DA8F90050E3F6 /* searchBar */ = {
+			isa = PBXGroup;
+			children = (
+				63B77C341B7DB4300050E3F6 /* searchDemoViewController.h */,
+				63B77C351B7DB4300050E3F6 /* searchDemoViewController.m */,
+			);
+			name = searchBar;
+			sourceTree = "<group>";
+		};
+		63B77C371B7DC39B0050E3F6 /* 分节表视图 */ = {
+			isa = PBXGroup;
+			children = (
+				63B77C381B7DC6660050E3F6 /* SectionHeader.h */,
+			);
+			name = "分节表视图";
+			sourceTree = "<group>";
+		};
+		63B77C391B7DC6950050E3F6 /* 分组与静态表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "分组与静态表";
+			sourceTree = "<group>";
+		};
+		63B77C3A1B7DCF9D0050E3F6 /* 删除或插入单元格 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "删除或插入单元格";
+			sourceTree = "<group>";
+		};
 		63BA8CF11B7C3D1500DBDEB9 /* Auto layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +155,40 @@
 			name = CollectionViewController;
 			sourceTree = "<group>";
 		};
+		63BA8D241B7C7EA800DBDEB9 /* 表视图 */ = {
+			isa = PBXGroup;
+			children = (
+				63B77C3A1B7DCF9D0050E3F6 /* 删除或插入单元格 */,
+				63B77C391B7DC6950050E3F6 /* 分组与静态表 */,
+				63B77C371B7DC39B0050E3F6 /* 分节表视图 */,
+				63B77C331B7DA8F90050E3F6 /* searchBar */,
+				63BA8D2A1B7C94AA00DBDEB9 /* 自定义单元格 */,
+				63BA8D291B7C949A00DBDEB9 /* 基本 */,
+				63BA8D251B7C80FF00DBDEB9 /* TableView_Header.h */,
+			);
+			name = "表视图";
+			sourceTree = "<group>";
+		};
+		63BA8D291B7C949A00DBDEB9 /* 基本 */ = {
+			isa = PBXGroup;
+			children = (
+				63BA8D261B7C836800DBDEB9 /* TableViewController.h */,
+				63BA8D271B7C836800DBDEB9 /* TableViewController.m */,
+			);
+			name = "基本";
+			sourceTree = "<group>";
+		};
+		63BA8D2A1B7C94AA00DBDEB9 /* 自定义单元格 */ = {
+			isa = PBXGroup;
+			children = (
+				63BA8D2B1B7C95A100DBDEB9 /* CustomCellTableViewController.h */,
+				63BA8D2C1B7C95A100DBDEB9 /* CustomCellTableViewController.m */,
+				63B77C301B7DA1DA0050E3F6 /* CustomCell.h */,
+				63B77C311B7DA1DA0050E3F6 /* CustomCell.m */,
+			);
+			name = "自定义单元格";
+			sourceTree = "<group>";
+		};
 		63BF3C1B1B79F0CB007544BA = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +210,7 @@
 		63BF3C261B79F0CB007544BA /* ALLDemos */ = {
 			isa = PBXGroup;
 			children = (
+				63BA8D241B7C7EA800DBDEB9 /* 表视图 */,
 				63BA8D1D1B7C6EF300DBDEB9 /* CollectionViewController */,
 				63BA8CF11B7C3D1500DBDEB9 /* Auto layout */,
 				63C267C41B7B44E0002234C1 /* Navigation */,
@@ -316,10 +396,14 @@
 				63C267C31B7B42C8002234C1 /* ToolBarViewController.m in Sources */,
 				63BF3C301B79F0CB007544BA /* ViewController.m in Sources */,
 				63C267C71B7B462E002234C1 /* NavigationBarViewController.m in Sources */,
+				63B77C361B7DB4300050E3F6 /* searchDemoViewController.m in Sources */,
 				63BF3C2D1B79F0CB007544BA /* AppDelegate.m in Sources */,
+				63B77C321B7DA1DA0050E3F6 /* CustomCell.m in Sources */,
 				63BA8D031B7C486600DBDEB9 /* MainViewController.m in Sources */,
 				63C267BF1B7B2BC0002234C1 /* ScrollViewViewController.m in Sources */,
+				63BA8D2D1B7C95A100DBDEB9 /* CustomCellTableViewController.m in Sources */,
 				63BF3C2A1B79F0CB007544BA /* main.m in Sources */,
+				63BA8D281B7C836800DBDEB9 /* TableViewController.m in Sources */,
 				63BA8CFF1B7C44CC00DBDEB9 /* landscapeViewController.m in Sources */,
 				63BA8D201B7C6F1F00DBDEB9 /* CollectionViewController.m in Sources */,
 				63BA8D231B7C70C800DBDEB9 /* CollectionViewCell.m in Sources */,
