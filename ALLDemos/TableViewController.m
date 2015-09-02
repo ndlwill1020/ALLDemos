@@ -33,7 +33,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     /*
-     //这里代码创建 需要  通过storyboard设置TableViewCell属性 不需要
+     //这里代码创建 需要     通过storyboard设置TableViewCell属性 不需要
      if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }*/

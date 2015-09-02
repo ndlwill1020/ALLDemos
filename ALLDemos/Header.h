@@ -9,6 +9,9 @@
 #ifndef ALLDemos_Header_h
 #define ALLDemos_Header_h
 /*
+ 静态链 接库可以编译到你的执行代码中,应用程序可以在没有静态链接库的环境下运行
+ 动态链接库不能编译到 你的执行代码中,应用程序必须在有链接库文件的环境下运行。
+ 
  UIViewController。用于自定􏰍视图控制器的导航。例如,对于两个界面的􏶗􏶘,我们可以用一个 UIViewController来控制另外两个UIViewController。
  􏱗 UINavigationController。导航控制器,􏰊与UITableViewController结合使用,能􏲇构建树形结 构导航模式。
  􏱗 UITabBarController。标签栏控制器,用于构建树标签导航模式。

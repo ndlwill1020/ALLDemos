@@ -9,9 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ALLDemos_NewScheme.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TargetDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6311C1321B945EB9002442D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6311C14A1B945EB9002442D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>63BF3C231B79F0CB007544BA</key>
 		<dict>
 			<key>primary</key>

@@ -23,6 +23,7 @@
                                                object:nil];
 }
 
+
 - (void)registerCompletion:(NSNotification *)notification{
     NSDictionary* data = [notification userInfo];
     NSString* userName = [data objectForKey:@"username"];

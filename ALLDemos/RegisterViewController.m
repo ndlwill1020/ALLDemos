@@ -25,6 +25,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)barButtonDoneOnClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"Modal View done");
+        NSDictionary* data = [NSDictionary dictionaryWithObject:self.userNameText.text forKey:@"username"];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"RegisterCompletionNotification"
+                                                            object:nil
+                                                          userInfo:data];
+    }];
+}
+- (IBAction)barButtonSaveOnClick:(id)sender {
+}
 
 /*
  
