@@ -135,6 +135,8 @@
 		63D659731B8C3D7E00D0D20F /* JSONHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONHeader.h; sourceTree = "<group>"; };
 		63D659751B8C461D00D0D20F /* HttpHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpHeader.h; sourceTree = "<group>"; };
 		63DBCF3D1B96C70E003A9F04 /* GitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHeader.h; sourceTree = "<group>"; };
+		63DBCF3F1B96DF79003A9F04 /* AppStoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStoreHeader.h; sourceTree = "<group>"; };
+		63DBCF411B96F005003A9F04 /* DelegateHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateHeader.h; sourceTree = "<group>"; };
 		63DDC7081B857990000FB5E4 /* NoteDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDao.h; sourceTree = "<group>"; };
 		63DDC7091B857990000FB5E4 /* NoteDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDao.m; sourceTree = "<group>"; };
 		63DDC70B1B857A2E000FB5E4 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
@@ -371,6 +373,7 @@
 		63BF3C261B79F0CB007544BA /* ALLDemos */ = {
 			isa = PBXGroup;
 			children = (
+				63DBCF401B96EFF6003A9F04 /* Delegate */,
 				63DDEC4C1B902E3B0018B4B6 /* Common### */,
 				63E0A6A71B8DBCC100841A30 /* Core Location */,
 				63D659741B8C460800D0D20F /* Http&Https */,
@@ -495,6 +498,14 @@
 			name = "标签导航";
 			sourceTree = "<group>";
 		};
+		63DBCF401B96EFF6003A9F04 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				63DBCF411B96F005003A9F04 /* DelegateHeader.h */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
 		63DDC7021B857631000FB5E4 /* ios分层架构 */ = {
 			isa = PBXGroup;
 			children = (
@@ -557,6 +568,7 @@
 				6311C12E1B940646002442D4 /* CertificateHeader.h */,
 				63D389741B95AC6B009BF8CF /* GooderHeader.h */,
 				63DBCF3D1B96C70E003A9F04 /* GitHeader.h */,
+				63DBCF3F1B96DF79003A9F04 /* AppStoreHeader.h */,
 			);
 			name = "Common###";
 			sourceTree = "<group>";

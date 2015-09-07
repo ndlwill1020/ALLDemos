@@ -111,6 +111,10 @@
  
  如果考􏱵适用于所有的Xcode工程,􏲒需要使用git config命令配置Git,具体代码如下: $ git config –global core.excludesfile ~/.gitignore
  该命令会将配置信息写入到~/.gitconfig文件中,–global参数是配置全局信息,~/.gitignore说明文件放置于􏱰 前用户目录下。
+ 
+ 
+ ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+ 使用GitHub协同开发有两种模式:一种是􏰑较􏵬􏱻的,代码库与开发者之间是一对多的关系模式;另一种是 代码库与开发者之间是多对多的关系。
  */
 
 
